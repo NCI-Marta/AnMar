@@ -88,4 +88,6 @@ router.get("/subtract", function (req, res, next) {
   });
 });
 
+router.get("/aboutus", function (req, res, next) {});
+
 module.exports = router;
