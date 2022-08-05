@@ -1,14 +1,14 @@
 body {
-  padding: 50px;
   font: 20px "Century Gothic", sans-serif;
   text-align: center;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
-.container > a {
-  width: 25%;
+a {
+  width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -18,9 +18,12 @@ body {
   background-color: lightcoral;
 }
 
+.container > a {
+  width: 25%;
+}
+
 a:hover {
   background-color: white;
-  outline: 1px solid lightcoral;
   color: lightcoral;
 }
 
@@ -41,19 +44,19 @@ form {
 }
 
 input {
-  width: 45%;
+  width: 1%;
   height: 100px;
   outline: none;
   border: none;
-  background-color: rgba(255, 0, 0, 0.1);
+  background-color: white;
   text-align: center;
   padding-left: 20px;
   font-size: 25px;
+  flex-grow: 1;
 }
 
 button {
   padding: 5px;
-  margin-top: 25px;
   width: 100%;
   height: 100px;
   background-color: black;
@@ -62,6 +65,7 @@ button {
   font-size: 20px;
   letter-spacing: 2px;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 button:hover {
@@ -76,16 +80,7 @@ p {
 
 h1 {
   order: -2;
-
-  text-decoration: none;
-  width: 100%;
-  height: 100px;
-  text-transform: uppercase;
-  font-size: 30px;
-  letter-spacing: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
 }
 
 #symbol {
@@ -94,4 +89,5 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 10%;
 }
