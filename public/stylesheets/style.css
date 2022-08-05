@@ -7,7 +7,7 @@ body {
   align-items: center;
 }
 
-a {
+.container > a {
   width: 25%;
   height: 100px;
   display: flex;
@@ -15,6 +15,7 @@ a {
   justify-content: center;
   color: white;
   text-decoration: none;
+  background-color: lightcoral;
 }
 
 a:hover {
@@ -66,7 +67,6 @@ button {
 button:hover {
   background-color: white;
   color: black;
-  letter-spacing: 10px;
 }
 
 p {
