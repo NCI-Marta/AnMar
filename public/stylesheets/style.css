@@ -6,7 +6,7 @@ body {
   align-items: center;
   margin: 0;
   background-color: black;
-  background-image: url(https://i.pinimg.com/originals/31/82/e5/3182e57….gif);
+  background-image: url(https://i.pinimg.com/originals/31/82/e5/3182e579d9e985daa8168ea729da7cba.gif);
   background-size: cover;
   background-position: center;
 }
@@ -76,6 +76,7 @@ button {
   letter-spacing: 2px;
   transition: 0.2s;
   cursor: pointer;
+  font-family: "Orbitron";
 }
 
 button:hover {
