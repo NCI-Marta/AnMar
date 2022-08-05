@@ -31,7 +31,6 @@ a {
 a:hover {
   background-color: black;
   color: rgb(0, 173, 0);
-  border-bottom: 1px solid black;
 }
 
 #cont {
