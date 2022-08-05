@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Calculator [<%= title %>]</title>
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
     <span className="container">
-      <a href="/math/calculator"> Calculator</a>
-      <a href="/math/add">add</a>
-      <a href="/math/divide">divide</a>
-      <a href="/math/multiply">multiply</a>
-      <a href="/math/subtract">subtract</a>
-      <a href="/views/about.html">About us</a>
-      <h1><%= title %></h1>
-      <p>Welcome to <%= title %></p>
+      <h1><a href="/math/calculator"> Calculator</a></h1>
+      <a href="/math/add">+</a>
+      <a href="/math/divide">/</a>
+      <a href="/math/multiply">*</a>
+      <a href="/math/subtract">-</a>
       <form action="<%= title %>" method="get">
-        <input type="number" name="num1" /> <%= symbol %>
+        <input type="number" name="num1" />
+        <span id="symbol"><%= symbol %></span>
         <input type="number" name="num2" />
         <br />
         <button type="submit">submit</button>
