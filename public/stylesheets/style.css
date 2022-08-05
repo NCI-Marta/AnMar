@@ -1,10 +1,14 @@
 body {
-  font: 20px "Century Gothic", sans-serif;
+  font: 20px "Orbitron", "Century Gothic", sans-serif;
   text-align: center;
   min-height: 100vh;
   display: flex;
   align-items: center;
   margin: 0;
+  background-color: black;
+  background-image: url(https://i.pinimg.com/originals/31/82/e5/3182e57….gif);
+  background-size: cover;
+  background-position: center;
 }
 
 a {
@@ -13,28 +17,33 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(0, 173, 0);
   text-decoration: none;
-  background-color: lightcoral;
+  background-color: black;
 }
 
 .container > a {
   width: 25%;
+  background-color: white;
+  color: black;
 }
 
 a:hover {
-  background-color: white;
-  color: lightcoral;
-  border-bottom: 1px solid lightcoral;
+  background-color: black;
+  color: rgb(0, 173, 0);
+  border-bottom: 1px solid black;
+}
+
+#cont {
+  max-width: 600px;
+  margin: auto;
+  padding: 50px;
 }
 
 .container {
-  max-width: 600px;
-  margin: auto;
-  background-color: rgba(0, 255, 0, 0.1);
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
 }
 
 form {
@@ -61,7 +70,7 @@ button {
   width: 100%;
   height: 100px;
   background-color: black;
-  color: white;
+  color: rgb(0, 173, 0);
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 2px;
@@ -96,4 +105,5 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 10%;
+  color: rgb(0, 173, 0);
 }
