@@ -11,25 +11,27 @@
     />
   </head>
   <body>
-    <span class="container">
-      <h1><a href="/math/calculator"> Calculator</a></h1>
-      <a href="/math/add">+</a>
-      <a href="/math/divide">/</a>
-      <a href="/math/multiply">*</a>
-      <a href="/math/subtract">-</a>
-      <form action="<%= title %>" method="get">
-        <input type="number" name="num1" />
-        <span id="symbol"><%= symbol %></span>
-        <input type="number" name="num2" />
-        <br />
-        <button type="submit">submit</button>
-      </form>
-      <div id="result">
-        <%if (result || (typeof result === 'number' && !isNaN(result))) { %> <%=
-        num1 %> <%= symbol %> <%= num2 %> = <%= result %> <% } else {%> Your
-        result will appear here! <%}%>
+    <div id="cont">
+      <div class="container">
+        <h1><a href="/math/calculator"> Calculator</a></h1>
+        <a href="/math/add">+</a>
+        <a href="/math/divide">/</a>
+        <a href="/math/multiply">*</a>
+        <a href="/math/subtract">-</a>
+        <form action="<%= title %>" method="get">
+          <input type="number" name="num1" />
+          <span id="symbol"><%= symbol %></span>
+          <input type="number" name="num2" />
+          <br />
+          <button type="submit">submit</button>
+        </form>
+        <div id="result">
+          <%if (result || (typeof result === 'number' && !isNaN(result))) { %> <%=
+          num1 %> <%= symbol %> <%= num2 %> = <%= result %> <% } else {%> Your
+          result will appear here! <%}%>
+        </div>
       </div>
-    </span>
+    </div>
   </body>
 </html>
 </html>
