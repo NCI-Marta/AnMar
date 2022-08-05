@@ -97,3 +97,13 @@ h1 {
   justify-content: center;
   width: 10%;
 }
+
+#result {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
