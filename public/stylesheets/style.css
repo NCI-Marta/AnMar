@@ -25,6 +25,7 @@ a {
 a:hover {
   background-color: white;
   color: lightcoral;
+  border-bottom: 1px solid lightcoral;
 }
 
 .container {
@@ -81,6 +82,11 @@ p {
 h1 {
   order: -2;
   margin: 0;
+  width: 100%;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 35px;
 }
 
 #symbol {
@@ -90,4 +96,14 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 10%;
+}
+
+#result {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
