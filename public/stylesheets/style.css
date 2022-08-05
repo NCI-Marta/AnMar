@@ -27,7 +27,7 @@ a:hover {
   color: lightcoral;
 }
 
-.container > a:hover {
+h1 > a:hover {
   border-bottom: 1px solid lightcoral;
 }
 
